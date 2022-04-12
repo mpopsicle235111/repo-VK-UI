@@ -7,15 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB132020275ECA76001A139B /* TransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB13201F275ECA76001A139B /* TransitionAnimator.swift */; };
+		DB132022275ECA8F001A139B /* TransitionCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB132021275ECA8F001A139B /* TransitionCoordinator.swift */; };
+		DB2F896927470A4E00E5AA21 /* NewsCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2F896727470A4E00E5AA21 /* NewsCustomTableViewCell.swift */; };
+		DB2F896A27470A4E00E5AA21 /* NewsCustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB2F896827470A4E00E5AA21 /* NewsCustomTableViewCell.xib */; };
+		DB2F896C27471DAC00E5AA21 /* MyTableViewControllerNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2F896B27471DAC00E5AA21 /* MyTableViewControllerNews.swift */; };
+		DB31B163273729080012318A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB31B162273729080012318A /* User.swift */; };
+		DB5EE35527354B9D005C1672 /* myTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5EE35427354B9D005C1672 /* myTableViewController.swift */; };
+		DB6297A1273DCEF70065A0BE /* myLikeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6297A0273DCEF70065A0BE /* myLikeController.swift */; };
+		DB6297A9273DF3870065A0BE /* MyLikeController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6297A8273DF3870065A0BE /* MyLikeController2.swift */; };
+		DB6CA6DB27369C6C00C42005 /* myTableViewControllerUserGroups.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6CA6DA27369C6C00C42005 /* myTableViewControllerUserGroups.swift */; };
+		DB6CA6E12736B39000C42005 /* myTableViewControllerOtherGroups.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6CA6E02736B39000C42005 /* myTableViewControllerOtherGroups.swift */; };
 		DB6E4DFC272F300100218E92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6E4DFB272F300100218E92 /* AppDelegate.swift */; };
 		DB6E4DFE272F300100218E92 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6E4DFD272F300100218E92 /* SceneDelegate.swift */; };
 		DB6E4E03272F300100218E92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB6E4E01272F300100218E92 /* Main.storyboard */; };
 		DB6E4E05272F300400218E92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB6E4E04272F300400218E92 /* Assets.xcassets */; };
 		DB6E4E08272F300400218E92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB6E4E06272F300400218E92 /* LaunchScreen.storyboard */; };
 		DB6E4E10272F309100218E92 /* LoginFormController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6E4E0F272F309100218E92 /* LoginFormController.swift */; };
+		DB7C3EF7273803A1001278EA /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7C3EF6273803A1001278EA /* Group.swift */; };
+		DB89D79327557B69002DC087 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB89D79227557B69002DC087 /* PhotoCollectionViewCell.swift */; };
+		DB89D79527559B7D002DC087 /* LargeImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB89D79427559B7D002DC087 /* LargeImageViewController.swift */; };
+		DBB0F573275A66230013982C /* CustomPopAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB0F572275A66230013982C /* CustomPopAnimator.swift */; };
+		DBBE2193273F333200B89192 /* MyGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBE2192273F333100B89192 /* MyGradientView.swift */; };
+		DBEF23E7274C07FA0028C540 /* SnakeCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEF23E6274C07FA0028C540 /* SnakeCircleView.swift */; };
+		DBF4EF9B2735DE7300C1122F /* myCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF4EF9A2735DE7300C1122F /* myCollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DB13201F275ECA76001A139B /* TransitionAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionAnimator.swift; sourceTree = "<group>"; };
+		DB132021275ECA8F001A139B /* TransitionCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionCoordinator.swift; sourceTree = "<group>"; };
+		DB2F896727470A4E00E5AA21 /* NewsCustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCustomTableViewCell.swift; sourceTree = "<group>"; };
+		DB2F896827470A4E00E5AA21 /* NewsCustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsCustomTableViewCell.xib; sourceTree = "<group>"; };
+		DB2F896B27471DAC00E5AA21 /* MyTableViewControllerNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewControllerNews.swift; sourceTree = "<group>"; };
+		DB31B162273729080012318A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		DB5EE35427354B9D005C1672 /* myTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = myTableViewController.swift; path = "Hometask 2/myTableViewController.swift"; sourceTree = SOURCE_ROOT; };
+		DB6297A0273DCEF70065A0BE /* myLikeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myLikeController.swift; sourceTree = "<group>"; };
+		DB6297A8273DF3870065A0BE /* MyLikeController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLikeController2.swift; sourceTree = "<group>"; };
+		DB6CA6DA27369C6C00C42005 /* myTableViewControllerUserGroups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTableViewControllerUserGroups.swift; sourceTree = "<group>"; };
+		DB6CA6E02736B39000C42005 /* myTableViewControllerOtherGroups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTableViewControllerOtherGroups.swift; sourceTree = "<group>"; };
 		DB6E4DF8272F300100218E92 /* Hometask 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hometask 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB6E4DFB272F300100218E92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB6E4DFD272F300100218E92 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +53,13 @@
 		DB6E4E07272F300400218E92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB6E4E09272F300400218E92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB6E4E0F272F309100218E92 /* LoginFormController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFormController.swift; sourceTree = "<group>"; };
+		DB7C3EF6273803A1001278EA /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		DB89D79227557B69002DC087 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		DB89D79427559B7D002DC087 /* LargeImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeImageViewController.swift; sourceTree = "<group>"; };
+		DBB0F572275A66230013982C /* CustomPopAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPopAnimator.swift; sourceTree = "<group>"; };
+		DBBE2192273F333100B89192 /* MyGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGradientView.swift; sourceTree = "<group>"; };
+		DBEF23E6274C07FA0028C540 /* SnakeCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnakeCircleView.swift; sourceTree = "<group>"; };
+		DBF4EF9A2735DE7300C1122F /* myCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myCollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +73,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DB31B161273726380012318A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DB31B162273729080012318A /* User.swift */,
+				DB7C3EF6273803A1001278EA /* Group.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		DB6E4DEF272F300100218E92 = {
 			isa = PBXGroup;
 			children = (
@@ -56,10 +101,27 @@
 		DB6E4DFA272F300100218E92 /* Hometask 2 */ = {
 			isa = PBXGroup;
 			children = (
+				DBEF23E6274C07FA0028C540 /* SnakeCircleView.swift */,
+				DBB0F572275A66230013982C /* CustomPopAnimator.swift */,
+				DB89D79227557B69002DC087 /* PhotoCollectionViewCell.swift */,
 				DB6E4DFB272F300100218E92 /* AppDelegate.swift */,
 				DB6E4DFD272F300100218E92 /* SceneDelegate.swift */,
 				DB6E4E01272F300100218E92 /* Main.storyboard */,
+				DB89D79427559B7D002DC087 /* LargeImageViewController.swift */,
 				DB6E4E0F272F309100218E92 /* LoginFormController.swift */,
+				DBF4EF9A2735DE7300C1122F /* myCollectionViewController.swift */,
+				DB6CA6DA27369C6C00C42005 /* myTableViewControllerUserGroups.swift */,
+				DB6CA6E02736B39000C42005 /* myTableViewControllerOtherGroups.swift */,
+				DB5EE35427354B9D005C1672 /* myTableViewController.swift */,
+				DB2F896727470A4E00E5AA21 /* NewsCustomTableViewCell.swift */,
+				DB2F896827470A4E00E5AA21 /* NewsCustomTableViewCell.xib */,
+				DB6297A8273DF3870065A0BE /* MyLikeController2.swift */,
+				DB2F896B27471DAC00E5AA21 /* MyTableViewControllerNews.swift */,
+				DBBE2192273F333100B89192 /* MyGradientView.swift */,
+				DB13201F275ECA76001A139B /* TransitionAnimator.swift */,
+				DB132021275ECA8F001A139B /* TransitionCoordinator.swift */,
+				DB6297A0273DCEF70065A0BE /* myLikeController.swift */,
+				DB31B161273726380012318A /* Model */,
 				DB6E4E04272F300400218E92 /* Assets.xcassets */,
 				DB6E4E06272F300400218E92 /* LaunchScreen.storyboard */,
 				DB6E4E09272F300400218E92 /* Info.plist */,
@@ -127,6 +189,7 @@
 				DB6E4E08272F300400218E92 /* LaunchScreen.storyboard in Resources */,
 				DB6E4E05272F300400218E92 /* Assets.xcassets in Resources */,
 				DB6E4E03272F300100218E92 /* Main.storyboard in Resources */,
+				DB2F896A27470A4E00E5AA21 /* NewsCustomTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,9 +200,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB132020275ECA76001A139B /* TransitionAnimator.swift in Sources */,
+				DB2F896927470A4E00E5AA21 /* NewsCustomTableViewCell.swift in Sources */,
+				DB89D79527559B7D002DC087 /* LargeImageViewController.swift in Sources */,
+				DBF4EF9B2735DE7300C1122F /* myCollectionViewController.swift in Sources */,
+				DBB0F573275A66230013982C /* CustomPopAnimator.swift in Sources */,
 				DB6E4E10272F309100218E92 /* LoginFormController.swift in Sources */,
+				DB6297A9273DF3870065A0BE /* MyLikeController2.swift in Sources */,
 				DB6E4DFC272F300100218E92 /* AppDelegate.swift in Sources */,
+				DB7C3EF7273803A1001278EA /* Group.swift in Sources */,
+				DB6297A1273DCEF70065A0BE /* myLikeController.swift in Sources */,
+				DBEF23E7274C07FA0028C540 /* SnakeCircleView.swift in Sources */,
 				DB6E4DFE272F300100218E92 /* SceneDelegate.swift in Sources */,
+				DB89D79327557B69002DC087 /* PhotoCollectionViewCell.swift in Sources */,
+				DB132022275ECA8F001A139B /* TransitionCoordinator.swift in Sources */,
+				DB2F896C27471DAC00E5AA21 /* MyTableViewControllerNews.swift in Sources */,
+				DB31B163273729080012318A /* User.swift in Sources */,
+				DB6CA6E12736B39000C42005 /* myTableViewControllerOtherGroups.swift in Sources */,
+				DB6CA6DB27369C6C00C42005 /* myTableViewControllerUserGroups.swift in Sources */,
+				DBBE2193273F333200B89192 /* MyGradientView.swift in Sources */,
+				DB5EE35527354B9D005C1672 /* myTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

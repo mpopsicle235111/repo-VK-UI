@@ -10,10 +10,15 @@ import UIKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        //Here we add custom lines to make transition animation
+        let backgroundView = UIView(frame: UIScreen.main.bounds)
+        backgroundView.backgroundColor = .white
+        
+        window?.addSubview(backgroundView)
         return true
     }
 
